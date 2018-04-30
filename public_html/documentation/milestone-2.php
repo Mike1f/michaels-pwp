@@ -4,6 +4,6 @@
 	<title>Michael's PWP</title>
 	<body>
 		<h1>Wireframe</h1>
-		<img src="/images/wireframe.jpeg">
+		<img src="/images/wireframe.jpeg" alt="photo">
 	</body>
 </html>
