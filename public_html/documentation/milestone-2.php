@@ -11,6 +11,6 @@
 			navigate the rest of the site and choose to se my Portfolio, Resume, and my Contact information. The same goes
 			for the mobile version of the site the only major difference being the tabs will com up from a little side bar
 			when a "Hamburger" button is tapped.</p>
-		<img src="/images/wireframe.png">
+		<img src="../../images/wireframe.png">
 	</body>
 </html>

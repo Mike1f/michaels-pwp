@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-	<meta charset="UTF-8">
-	<title>Michael's PWP</title>
+	<head>
+		<meta charset="UTF-8">
+		<title>Michael's PWP</title>
+	</head>
 	<body>
 		<h1>Michael's PWP</h1>
 		<h2>Purpose</h2>
@@ -16,13 +18,15 @@
 		Overall I want this to be a site about me where people who visit can learn about what kind of person I am and where
 		employers can look at my professional history and potentially hire me.</p>
 		<h2>Persona</h2>
-		<h3>Name:John Smith</h3>
-		<ul>Age: 25</ul>
-		<ul>Gender: Male</ul>
-		<ul>Tech: Desktop/Laptop (Windows 10) & Mobile Phone (android)</ul>
-		<ul>Attitude: Serious, professional, and (somewhat) strict but, also creative happy most of the time and enjoys
-			what he does.</ul>
-		<ul>John Smith wants to find someone that has a great background in I.T. but also wants to know their skills and
-			interests so he can hire them for his business.</ul>
+		<ul>
+			<h3>Name:John Smith</h3>
+			<li>Age: 25</li>
+			<li>Gender: Male</li>
+			<li>Tech: Desktop/Laptop (Windows 10) & Mobile Phone (android)</li>
+			<li>Attitude: Serious, professional, and (somewhat) strict but, also creative happy most of the time and enjoys
+				what he does.</li>
+			<li>John Smith wants to find someone that has a great background in I.T. but also wants to know their skills and
+					interests so he can hire them for his business.</li>
+		</ul>
 	</body>
 </html>
