@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-	<meta charset="UTF-8">
-	<title>Michael's PWP</title>
+	<head>
+		<meta charset="UTF-8">
+		<title>Michael's PWP</title>
+	</head>
 	<body>
 		<h1>Wireframe & Content Strategy</h1>
 		<p>I want this site to be a site where employers can look at my professional skills as well as find out what kind
