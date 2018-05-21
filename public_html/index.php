@@ -4,9 +4,11 @@
 		<meta charset="UTF-8">
 		<title>Michael's Website</title>
 	</head>
+	//TODO Format rest of site//
 	<body>
 		<header>Michael Figueroa</header>
 		<h1>About Me</h1>
+		//TODO Add more/Finish About me section//
 		<p>My name is Michael Figueroa and i am a low level computer programmer (so far). I enjoy working with technology,
 			playing video games, and listening to music in my spare time.</p>
 		<h1>Portfolio</h1>
