@@ -2,7 +2,13 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 		<title>Michael's Website</title>
+		<link rel="stylesheet" href="../style/style.css">
 	</head>
 	//TODO Format rest of site//
 	<body>
@@ -103,7 +109,13 @@
 			We also got into our capstone groups where we are going to work on the website that we have to present at graduation
 			which is really cool and im excited about.</ul>
 		<h1>Resume</h1>
-		<img src="../images/Resumeimg.png">
+		<button onclick="getElementById('demo').innerHTML=Date()" type="button" class="btn btn-primary">Click then refresh</button>
+		<p id="demo"></p>
 		<h1>Contact Me</h1>
+		<img src="../images/square-tumblr-512.png">
+		<img src="../images/twitter.png">
+		<img src="../images/2000px-F_icon.svg.png">
+		<img src="../images/github-512.png">
+		<img src="../images/square-linkedin-512.png">
 	</body>
 </html>

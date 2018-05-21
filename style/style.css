@@ -1,0 +1,8 @@
+body{
+	background-color: black;
+}
+
+body, ol, h2, p{
+	color: red;
+	font-family: "Courier New";
+}
