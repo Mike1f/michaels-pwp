@@ -12,14 +12,6 @@
 		<h1>Portfolio</h1>
 		<p>
 		<p>Career buddy: Jully Hawkins</p>
-		<h2>Links:</h2>
-		<ul>
-			<li><a href="mailto:spider811games@gmail.com">Email</a></li>
-			<li><a href="https://github.com/Mike1f">GitHub</a></li>
-			<li><a href="https://www.linkedin.com/in/michaelfigueroa811">LinkedIn</a></li>
-			<li><a href="https://twitter.com/spider811games">Twitter</a></li>
-			<li><a href="https://docs.google.com/document/d/1i26k884RdvxWO0GBUSqU7maovqeftOJIJ6BefOKR8Q8/edit?usp=sharing">My Resume</a></li>
-		</ul>
 		<h2>Quantitative Accomplishments</h2>
 		<ol>
 			<li>I worked on a website for The Department of Workforce Solutions called
@@ -109,6 +101,7 @@
 			We also got into our capstone groups where we are going to work on the website that we have to present at graduation
 			which is really cool and im excited about.</ul>
 		<h1>Resume</h1>
-		<img src="../../images/Resumeimg.png">
+		<img src="../images/Resumeimg.png">
+		<h1>Contact Me</h1>
 	</body>
 </html>
