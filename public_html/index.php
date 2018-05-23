@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -38,33 +39,26 @@
 			<li>I'm punctual</li>
 		</ul>
 		<h2>Golden Circle</h2>
-
 		<ul>
 			<li>What: Get a career within I.T. </li>
 			<li>How: Get an education withing the I.T. field.</li>
 			<li>Why: I enjoy working with computers and technology and I can help other people with technical problems.</li>
 		</ul>
-
 		<h2>Elevator Pitch</h2>
-
 		<p>Hello, my name is Michael Figueroa. I'm going to get a job in I.T. because I love technology and I want to help
 			people with their technical problems. I'm taking a coding boot camp and I'm planning on taking more classes
 			within the I.T. field to achieve this career choice.</p>
-
 		<h2>Weekly Evaluation</h2>
-
 		<ul>Week 0 of the boot camp was really good. We reviewed creating and deploying repositories as well as learning
 			how to create Personas and Use/Case Interaction Flows. We gor into groups when learning these subjects so not
 			only did I learn a lot, I also got to talk with and interact with my classmates which was a great experience.
 			Looking forward to next week.</ul>
-
 		<ul>Week 1 of the boot camp went great. We got to learn about Object Oriented PHP. wel learned about classes,
 			getter and setter methods, traits, and .json files. As for the Pro Dev side of things we got ton  do an activity
 			where we picked two random pictures that had to represent where we were in the present and where we wanted to
 			be 3 years in the future. It was a really fun activity because not only did I get more of an idea on what I
 			wanted in my future, I also got to see what my peers were at now and where they wanted for their future, so it
 			was really interesting to see that.</ul>
-
 		<ul>Week 2 of the Boot camp went pretty good. I am getting a little stress from the amount of work but I'm managing
 			with the help of my teachers and peers. this week what we did wqas finish up our Data Design project as well as
 			start a new assignment with CSS where we had to edit contents of a simple html page to look more professional.
@@ -76,43 +70,36 @@
 			<li>I'm punctual</li>
 		</ul>
 		<h2>Golden Circle</h2>
-
 		<ul>
 			<li>What: Get a career within I.T. </li>
 			<li>How: Get an education withing the I.T. field.</li>
 			<li>Why: I enjoy working with computers and technology and I can help other people with technical problems.</li>
 		</ul>
-
 		<h2>Elevator Pitch</h2>
-
 		<p>Hello, my name is Michael Figueroa. I'm going to get a job in I.T. because I love technology and I want to help
 			people with their technical problems. I'm taking a coding boot camp and I'm planning on taking more classes
 			within the I.T. field to achieve this career choice.</p>
-
 		<h2>Weekly Evaluation</h2>
-
 		<ul>Week 0 of the boot camp was really good. We reviewed creating and deploying repositories as well as learning
 			how to create Personas and Use/Case Interaction Flows. We gor into groups when learning these subjects so not
 			only did I learn a lot, I also got to talk with and interact with my classmates which was a great experience.
 			Looking forward to next week.</ul>
-
 		<ul>Week 1 of the boot camp went great. We got to learn about Object Oriented PHP. wel learned about classes,
 			getter and setter methods, traits, and .json files. As for the Pro Dev side of things we got ton  do an activity
 			where we picked two random pictures that had to represent where we were in the present and where we wanted to
 			be 3 years in the future. It was a really fun activity because not only did I get more of an idea on what I
 			wanted in my future, I also got to see what my peers were at now and where they wanted for their future, so it
 			was really interesting to see that.</ul>
-
 		<ul>Week 2 of the Boot camp went pretty good. I am getting a little stress from the amount of work but I'm managing
 			with the help of my teachers and peers. this week what we did wqas finish up our Data Design project as well as
 			start a new assignment with CSS where we had to edit contents of a simple html page to look more professional.
 			We also got into our capstone groups where we are going to work on the website that we have to present at graduation
 			which is really cool and im excited about.</ul>
 		<h1>Resume</h1>
-		<button onclick="getElementById('demo').innerHTML=Date()" type="button" class="btn btn-primary">Click then refresh</button>
+		<button onclick="getElementById('demo').innerHTML=Date()" type="button" class="btn btn-danger">Click for Resume :)</button>
 		<p id="demo"></p>
 		<h1>Contact Me</h1>
-		<img src="../images/square-tumblr-512.png">
+		<img id="imgTumblr" src="../images/square-tumblr-512.png" title="Tumblr" alt="Tumblr">
 		<img src="../images/twitter.png">
 		<img src="../images/2000px-F_icon.svg.png">
 		<img src="../images/github-512.png">
