@@ -44,3 +44,6 @@ Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/p
 #### Edits &amp; Suggestions
 - Opening and closing `<head>` tag is missing
 - Always use the `alt` attribute on your `<img>` tags.
+
+### Milestone 2b Feedback
+Still got a lot of work ahead - so keep moving forward. Your Milestone 2b passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Notes and feedback left via Slack.
