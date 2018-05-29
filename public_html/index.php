@@ -11,98 +11,61 @@
 		<title>Michael's Website</title>
 		<link rel="stylesheet" href="../style/style.css">
 	</head>
-	//TODO Format rest of site//
 	<body>
-		<header>Michael Figueroa</header>
-		<h1>About Me</h1>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Michaelfigueroa.pdf">Resume.pdf</a>
+						</li>
+<!--						<li class="nav-item dropdown">-->
+<!--							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--								Dropdown-->
+<!--							</a>-->
+<!--							<div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+<!--								<a class="dropdown-item" href="#">Action</a>-->
+<!--								<a class="dropdown-item" href="#">Another action</a>-->
+<!--								<div class="dropdown-divider"></div>-->
+<!--								<a class="dropdown-item" href="#">Something else here</a>-->
+<!--							</div>-->
+<!--						</li>-->
+					</ul>
+				</div>
+			</nav>
+		</header>
+	<h1>About Me</h1>
 		//TODO Add more/Finish About me section//
 		<p>My name is Michael Figueroa and i am a low level computer programmer (so far). I enjoy working with technology,
 			playing video games, and listening to music in my spare time.</p>
-		<h1>Portfolio</h1>
-		<p>
-		<p>Career buddy: Jully Hawkins</p>
-		<h2>Quantitative Accomplishments</h2>
-		<ol>
-			<li>I worked on a website for The Department of Workforce Solutions called
-				<a href="https://www.dws.state.nm.us/whyiwork/">Why I Work</a>
-				when I was an Intern there. I worked on this site without having any coding experience so I self taught
-				myself how to edit the code. I also </li>
-			<li>When I was in middle school I was in a robotics club where I built a robot that i had programed to bring
-				ping pongs from point A to point B and back. My robot was even on the news and i was also interviewed about
-				it for a news story.</li>
-			<li>I entered a 10 week coding boot-camp where I learned how to code websites.</li>
-		</ol>
-		<h2>Qualitative Features</h2>
-		<ul>
-			<li>I'm a good listener.</li>
-			<li>I'm organized</li>
-			<li>I'm punctual</li>
-		</ul>
-		<h2>Golden Circle</h2>
-		<ul>
-			<li>What: Get a career within I.T. </li>
-			<li>How: Get an education withing the I.T. field.</li>
-			<li>Why: I enjoy working with computers and technology and I can help other people with technical problems.</li>
-		</ul>
-		<h2>Elevator Pitch</h2>
-		<p>Hello, my name is Michael Figueroa. I'm going to get a job in I.T. because I love technology and I want to help
-			people with their technical problems. I'm taking a coding boot camp and I'm planning on taking more classes
-			within the I.T. field to achieve this career choice.</p>
-		<h2>Weekly Evaluation</h2>
-		<ul>Week 0 of the boot camp was really good. We reviewed creating and deploying repositories as well as learning
-			how to create Personas and Use/Case Interaction Flows. We gor into groups when learning these subjects so not
-			only did I learn a lot, I also got to talk with and interact with my classmates which was a great experience.
-			Looking forward to next week.</ul>
-		<ul>Week 1 of the boot camp went great. We got to learn about Object Oriented PHP. wel learned about classes,
-			getter and setter methods, traits, and .json files. As for the Pro Dev side of things we got ton  do an activity
-			where we picked two random pictures that had to represent where we were in the present and where we wanted to
-			be 3 years in the future. It was a really fun activity because not only did I get more of an idea on what I
-			wanted in my future, I also got to see what my peers were at now and where they wanted for their future, so it
-			was really interesting to see that.</ul>
-		<ul>Week 2 of the Boot camp went pretty good. I am getting a little stress from the amount of work but I'm managing
-			with the help of my teachers and peers. this week what we did wqas finish up our Data Design project as well as
-			start a new assignment with CSS where we had to edit contents of a simple html page to look more professional.
-			We also got into our capstone groups where we are going to work on the website that we have to present at graduation
-			which is really cool and im excited about.</ul>
-		<ul>
-			<li>I'm a good listener.</li>
-			<li>I'm organized</li>
-			<li>I'm punctual</li>
-		</ul>
-		<h2>Golden Circle</h2>
-		<ul>
-			<li>What: Get a career within I.T. </li>
-			<li>How: Get an education withing the I.T. field.</li>
-			<li>Why: I enjoy working with computers and technology and I can help other people with technical problems.</li>
-		</ul>
-		<h2>Elevator Pitch</h2>
-		<p>Hello, my name is Michael Figueroa. I'm going to get a job in I.T. because I love technology and I want to help
-			people with their technical problems. I'm taking a coding boot camp and I'm planning on taking more classes
-			within the I.T. field to achieve this career choice.</p>
-		<h2>Weekly Evaluation</h2>
-		<ul>Week 0 of the boot camp was really good. We reviewed creating and deploying repositories as well as learning
-			how to create Personas and Use/Case Interaction Flows. We gor into groups when learning these subjects so not
-			only did I learn a lot, I also got to talk with and interact with my classmates which was a great experience.
-			Looking forward to next week.</ul>
-		<ul>Week 1 of the boot camp went great. We got to learn about Object Oriented PHP. wel learned about classes,
-			getter and setter methods, traits, and .json files. As for the Pro Dev side of things we got ton  do an activity
-			where we picked two random pictures that had to represent where we were in the present and where we wanted to
-			be 3 years in the future. It was a really fun activity because not only did I get more of an idea on what I
-			wanted in my future, I also got to see what my peers were at now and where they wanted for their future, so it
-			was really interesting to see that.</ul>
-		<ul>Week 2 of the Boot camp went pretty good. I am getting a little stress from the amount of work but I'm managing
-			with the help of my teachers and peers. this week what we did wqas finish up our Data Design project as well as
-			start a new assignment with CSS where we had to edit contents of a simple html page to look more professional.
-			We also got into our capstone groups where we are going to work on the website that we have to present at graduation
-			which is really cool and im excited about.</ul>
 		<h1>Resume</h1>
 		<button onclick="getElementById('demo').innerHTML=Date()" type="button" class="btn btn-danger">Click for Resume :)</button>
 		<p id="demo"></p>
+		<h1>Portfolio</h1>
+		<button onclick="getElementById('demo2').innerHTML=Date()" type="button" class="btn btn-danger">Click for Portfolio :)</button>
+		<p id="demo2"></p>
 		<h1>Contact Me</h1>
-		<img id="imgTumblr" src="../images/square-tumblr-512.png" title="Tumblr" alt="Tumblr">
-		<img src="../images/twitter.png">
-		<img src="../images/2000px-F_icon.svg.png">
-		<img src="../images/github-512.png">
-		<img src="../images/square-linkedin-512.png">
+		<a href="https://www.tumblr.com/blog/spider811" id="imgTumblr" target="_blank">
+			<img id="imgTumblr" src="../images/square-tumblr-512.png" title="Tumblr" alt="Tumblr">
+		</a>
+		<a href="https://twitter.com/spider811games" id="imgTwitter" target="_blank">
+			<img id="imgTwitter" src="../images/twitter.png" title="Twitter" alt="Twitter">
+		</a>
+		<a href="https://www.facebook.com/michael.figueroa.52438?ref=bookmarks" id="imgFacebook" target="_blank">
+			<img id="imgFacebook" src="../images/2000px-F_icon.svg.png" title="Facebook" alt="Facebook">
+		</a>
+		<a href="https://github.com/Mike1f" id="imgGithub" target="_blank">
+			<img id="imgGithub" src="../images/github-512.png" title="Guthub" alt="Github">
+		</a>
+		<a href="https://www.linkedin.com/in/michaelfigueroa811/" id="imgLinkedIn" target="_blank">
+			<img id="imgLinkedIn" src="../images/square-linkedin-512.png" title="LinkedIn" alt="LinkedIn">
+		</a>
 	</body>
 </html>
