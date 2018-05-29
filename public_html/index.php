@@ -14,17 +14,14 @@
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand" href="#">Navbar</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+				<a class="navbar-brand" href="#">Welcome!</a>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<li class="nav-item">
+							<a class="nav-link" href="Michaelfigueroa.pdf" target="_blank">Resume.pdf</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="Michaelfigueroa.pdf">Resume.pdf</a>
+							<a class="nav-link" href="Michaelfigueroa.pdf" target="_blank">Portfolio.pdf</a>
 						</li>
 <!--						<li class="nav-item dropdown">-->
 <!--							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
@@ -45,12 +42,6 @@
 		//TODO Add more/Finish About me section//
 		<p>My name is Michael Figueroa and i am a low level computer programmer (so far). I enjoy working with technology,
 			playing video games, and listening to music in my spare time.</p>
-		<h1>Resume</h1>
-		<button onclick="getElementById('demo').innerHTML=Date()" type="button" class="btn btn-danger">Click for Resume :)</button>
-		<p id="demo"></p>
-		<h1>Portfolio</h1>
-		<button onclick="getElementById('demo2').innerHTML=Date()" type="button" class="btn btn-danger">Click for Portfolio :)</button>
-		<p id="demo2"></p>
 		<h1>Contact Me</h1>
 		<a href="https://www.tumblr.com/blog/spider811" id="imgTumblr" target="_blank">
 			<img id="imgTumblr" src="../images/square-tumblr-512.png" title="Tumblr" alt="Tumblr">
