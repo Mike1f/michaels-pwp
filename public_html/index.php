@@ -9,27 +9,32 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 		<title>Michael's Website</title>
-		<link rel="stylesheet" href="../style/style.css">
 	</head>
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand" href="#">Welcome!</a>
+<!--				<img src="../images/Snapchat-124199140.jpg" class="cir img-fluid rounded-circle">-->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="Michaelfigueroa.pdf" target="_blank">Resume.pdf</a>
+							<a class="nav-link" href="../images/Michael-Figueroa.pdf" target="_blank">Resume.pdf</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="Michaelfigueroa.pdf" target="_blank">Portfolio.pdf</a>
+							<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/michaels-portfolio/" target="_blank">Portfolio.pdf</a>
 					</ul>
 				</div>
 			</nav>
 		</header>
-	<h1>About Me</h1>
-		//TODO Add more/Finish About me section//
-		<p>My name is Michael Figueroa and i am a low level computer programmer (so far). I enjoy working with technology,
-			playing video games, and listening to music in my spare time.</p>
+		<div class="row">
+			<div class="col-md-3">
+				<img src="/images/pwp1.jpg" class="img-fluid rounded-circle">
+				<img src="/images/pwp2.jpg" class="img-fluid rounded-circle">
+				<img src="/images/pwp3.jpg" class="img-fluid rounded-circle">
+			</div>
+			<div class="col-md-9">
+				<p id="midContent">Black ops 2 is a great game. i loved playing all of the call of duty games when i was a kid and still enjoying the games today</p>
+			</div>
+		</div>
 		<h1>Contact Me</h1>
 		<a href="https://www.tumblr.com/blog/spider811" id="imgTumblr" target="_blank">
 			<img id="imgTumblr" src="../images/square-tumblr-512.png" title="Tumblr" alt="Tumblr">
