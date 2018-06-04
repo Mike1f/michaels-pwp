@@ -13,7 +13,7 @@
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<img src="../images/Snapchat-124199140.jpg" class="cir img-fluid rounded-circle">
+				<img src="../images/" class="cir img-fluid rounded-circle">
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
