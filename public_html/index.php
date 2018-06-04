@@ -27,9 +27,9 @@
 		</header>
 		<div class="row">
 			<div class="col-md-3">
-				<img src="/images/pwp1.jpg" class="img-fluid rounded-circle">
-				<img src="/images/pwp2.jpg" class="img-fluid rounded-circle">
-				<img src="/images/pwp3.jpg" class="img-fluid rounded-circle">
+				<img src="../images/pwp1.jpg" class="img-fluid rounded-circle">
+				<img src="../images/pwp2.jpg" class="img-fluid rounded-circle">
+				<img src="../images/pwp3.jpg" class="img-fluid rounded-circle">
 			</div>
 			<div class="col-md-9">
 				<p id="midContent">Black ops 2 is a great game. i loved playing all of the call of duty games when i was a kid and still enjoying the games today</p>
