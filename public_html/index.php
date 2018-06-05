@@ -9,10 +9,10 @@
 
 		<!-- FontAwesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+<!--		<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">-->
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+<!--		<link rel="stylesheet" href="css/style.css" type="text/css">-->
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -20,9 +20,9 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<!--		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>-->
+<!--		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>-->
+<!--		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>-->
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -44,15 +44,15 @@
 						<li class="nav-item">
 							<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/michaels-portfolio/" target="_blank">Portfolio.pdf</a>
 
-							<a href="https://www.tumblr.com/blog/spider811" id="imgTumblr" target="_blank">
-								<img id="imgTumblr" src="../images/square-tumblr-512.png" title="Tumblr" alt="Tumblr">
-							</a>
+<!--							<a href="https://www.tumblr.com/blog/spider811" id="imgTumblr" target="_blank">-->
+<!--								<img id="imgTumblr" src="../images/square-tumblr-512.png" title="Tumblr" alt="Tumblr">-->
+<!--							</a>-->
 							<a href="https://twitter.com/spider811games" id="imgTwitter" target="_blank">
 								<img id="imgTwitter" src="../images/twitter.png" title="Twitter" alt="Twitter">
 							</a>
-							<a href="https://www.facebook.com/michael.figueroa.52438?ref=bookmarks" id="imgFacebook" target="_blank">
-								<img id="imgFacebook" src="../images/2000px-F_icon.svg.png" title="Facebook" alt="Facebook">
-							</a>
+<!--							<a href="https://www.facebook.com/michael.figueroa.52438?ref=bookmarks" id="imgFacebook" target="_blank">-->
+<!--								<img id="imgFacebook" src="../images/2000px-F_icon.svg.png" title="Facebook" alt="Facebook">-->
+<!--							</a>-->
 							<a href="https://github.com/Mike1f" id="imgGithub" target="_blank">
 								<img id="imgGithub" src="../images/github-512.png" title="Guthub" alt="Github">
 							</a>
@@ -71,7 +71,7 @@
 				<img src="../images/pwp3.jpg" class="img-fluid rounded-circle">
 			</div>
 			<div class="col-md-9">
-				<p id="midContent">Black ops 2 is a great game. i loved playing all of the call of duty games when i was a kid and still enjoying the games today</p>
+				<p id="midContent"></p>
 			</div>
 		</div>
 		<body class="sfooter">
@@ -122,7 +122,7 @@
 										<div class="input-group-prepend">
 											<span class="input-group-text"><i class="fa fa-comment"></i></span>
 										</div>
-										<textarea name="demoMessage" rows="5" id="demoMessage" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
+										<textarea name="demoMessage" rows="5" id="demoMessage" class="form-control" placeholder="Your Message (1500 characters max)"></textarea>
 									</div>
 								</div>
 								<div class="g-recaptcha" data-sitekey="6LcNJl0UAAAAAHsPlaHgytG9NFjGgdS05oLDlZ6u"></div>
