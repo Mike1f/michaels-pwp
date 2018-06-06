@@ -9,10 +9,11 @@
 
 		<!-- FontAwesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<!--		<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">-->
+		<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
 
 		<!-- Custom CSS -->
-<!--		<link rel="stylesheet" href="css/style.css" type="text/css">-->
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -35,43 +36,65 @@
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<img src="../images/" class="cir img-fluid rounded-circle">
+				<a class="navbar-brand"><img class="img-fluid rounded-circle" src="../images/wilma.jpg"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="../images/Michael-Figueroa.pdf" target="_blank">Resume.pdf</a>
+							<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/michaels-portfolio/">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/michaels-portfolio/" target="_blank">Portfolio.pdf</a>
-
-<!--							<a href="https://www.tumblr.com/blog/spider811" id="imgTumblr" target="_blank">-->
-<!--								<img id="imgTumblr" src="../images/square-tumblr-512.png" title="Tumblr" alt="Tumblr">-->
-<!--							</a>-->
-							<a href="https://twitter.com/spider811games" id="imgTwitter" target="_blank">
-								<img id="imgTwitter" src="../images/twitter.png" title="Twitter" alt="Twitter">
-							</a>
-<!--							<a href="https://www.facebook.com/michael.figueroa.52438?ref=bookmarks" id="imgFacebook" target="_blank">-->
-<!--								<img id="imgFacebook" src="../images/2000px-F_icon.svg.png" title="Facebook" alt="Facebook">-->
-<!--							</a>-->
-							<a href="https://github.com/Mike1f" id="imgGithub" target="_blank">
-								<img id="imgGithub" src="../images/github-512.png" title="Guthub" alt="Github">
-							</a>
-							<a href="https://www.linkedin.com/in/michaelfigueroa811/" id="imgLinkedIn" target="_blank">
-								<img id="imgLinkedIn" src="../images/square-linkedin-512.png" title="LinkedIn" alt="LinkedIn">
-							</a>
-
+							<a class="nav-link" href="../Michaelfigueroa.pdf">Resume</a>
+						</li>
+					</ul>
+					<ul class="nav-item my-2 my-lg-0">
+						<!--							<a href="https://www.tumblr.com/blog/spider811" id="imgTumblr" target="_blank">-->
+						<!--								<img id="imgTumblr" src="../images/square-tumblr-512.png" title="Tumblr" alt="Tumblr">-->
+						<!--							</a>-->
+						<a href="https://twitter.com/spider811games" id="imgTwitter" target="_blank">
+							<i class="fab fa-twitter fa-2x"></i>
+						</a>
+						<!--							<a href="https://www.facebook.com/michael.figueroa.52438?ref=bookmarks" id="imgFacebook" target="_blank">-->
+						<!--								<img id="imgFacebook" src="../images/2000px-F_icon.svg.png" title="Facebook" alt="Facebook">-->
+						<!--							</a>-->
+						<a href="https://github.com/Mike1f" id="imgGithub" target="_blank">
+							<i class="fab fa-github fa-2x"></i>						</a>
+						<a href="https://www.linkedin.com/in/michaelfigueroa811/" id="imgLinkedIn" target="_blank">
+							<i class="fab fa-linkedin-in fa-2x"></i>
+						</a>
 					</ul>
 				</div>
 			</nav>
 		</header>
 		<div class="row">
 			<div class="col-md-3">
-				<img src="../images/pwp1.jpg" class="img-fluid rounded-circle">
-				<img src="../images/pwp2.jpg" class="img-fluid rounded-circle">
-				<img src="../images/pwp3.jpg" class="img-fluid rounded-circle">
+<!--				<h1>Michael Figueroa</h1>-->
+				<img src="../images/pwp1copy.jpg" alt="pwp1" class="img-fluid rounded-circle">
+				<img src="../images/pwp2copy.jpg" alt="pwp2" class="img-fluid rounded-circle">
+				<img src="../images/pwp3copy.jpg" alt="pwp3" class="img-fluid rounded-circle">
 			</div>
 			<div class="col-md-9">
-				<p id="midContent"></p>
+				<p id="midContent">Hello, my name is Michael Figueroa and I am a beginner level computer programmer.
+					I’m just going to start off and tell a little bit about myself. I am 19 years old and I was born on
+					October 8th, 1998. I really enjoy playing video games, watching videos on the internet, listening to
+					music and hanging out with my friends whenever I can. I also love working with any type of technology,
+					mostly computers. In 2017 I was apart of a coding boot camp called Deep Dive Coding where I spent 10
+					weeks learning how to code. It was one of the most fun experiences that I have ever been a part of and
+					I continue to expand my knowledge within coding and I.T. Also, for any employers that are visiting my
+					site you may be interested in my professional accomplishments. When I first graduated from high school
+					in 2017 I went into an internship at The New Mexico Department of Workforce Solutions where I helped make
+					a website called Why I Work which is used as a budgeting app for people who want to live in New Mexico.
+					While interning there I was originally supposed to stay from June to August, but I ended up getting
+					extended twice all the way up to April (a week before I started Deep Dive Coding). Some Software
+					applications that I have some experience from both Workforce Solutions and Deep Dive Coding are Microsoft
+					Visual Studios, SQL Server Management Studio, Adobe Photoshop, HTML5, GitHub, CSS3, Object Oriented
+					Programming, PHP Storm, JavaScript, Angular, MySQL, jQuery and Bootstrap. I’m always willing to learn
+					more about I.T and I plan to continue to learn as much as I can. If you want to ask me questions or want
+					to contact me, you can email me in the contact form below or you can message me through social media
+					which you can find on the top right of the page.</p>
 			</div>
 		</div>
 		<body class="sfooter">

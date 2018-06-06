@@ -21,3 +21,54 @@ body { width: 100%;}
 .sfooter-content {
 	flex: 1 0 auto;
 }
+
+body {
+	background-color: black;
+}
+
+p {
+	color: white;
+	font-family: 'Arvo', serif;
+}
+
+.py-5 {
+	color: white;
+	font-family: 'Arvo', serif;
+
+}
+.col-md-9 {
+	margin: auto;
+	width: 100%;
+	border: 4px solid white;
+	padding: 10px;
+	display: flex;
+	font-family: "Courier New";
+	font-weight: bold;
+	position: center;
+}
+
+.col-md-3 {
+	position: center;
+}
+
+/*.col-md-3, h1 {*/
+	/*flex-direction: unset;*/
+/*}*/
+
+img [alt*=pwp1] {
+	flex: auto;
+	max-width: 50px;
+	height: 50px;
+}
+
+img [alt*=pwp2] {
+	flex: auto;
+	width: 50px;
+	height: 50px;
+}
+
+img [alt*=pwp3] {
+	flex: auto;
+	width: 50px;
+	height: 50px;
+}
