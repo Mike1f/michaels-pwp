@@ -14,7 +14,7 @@ $(document).ready(function(){
 	 **/
 
 	/* begin validate function here */
-	$("#demo-form").validate({
+	$("#pwp-form").validate({
 
 		// setup handling of form errors
 		debug: true,
@@ -25,14 +25,14 @@ $(document).ready(function(){
 		// rules here define what is good or bad input
 		// each rule starts with the form input element's NAME attribute
 		rules: {
-			demoName: {
+			pwpName: {
 				required: true
 			},
-			demoEmail: {
+			pwpEmail: {
 				email: true,
 				required: true
 			},
-			demoMessage: {
+			pwpMessage: {
 				required: true,
 				maxlength: 2000
 			}
@@ -40,14 +40,14 @@ $(document).ready(function(){
 
 		// error messages to display to the end user when rules above don't pass
 		messages: {
-			demoName: {
+			pwpName: {
 				required: "Please enter your Name."
 			},
-			demoEmail: {
+			pwpEmail: {
 				email: "Please enter a valid email address.",
 				required: "Please enter a valid email address."
 			},
-			demoMessage: {
+			pwpMessage: {
 				required: "Please enter a message.",
 				maxlength: "1500 characters max."
 			}
@@ -55,9 +55,9 @@ $(document).ready(function(){
 
 		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
-			$("#demo-form").ajaxSubmit({
+			$("#pwp-form").ajaxSubmit({
 				type: "POST",
-				url: $("#demo-form").attr("action"),
+				url: $("#pwp-form").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#demo-form")[0].reset();
+						$("#pwp-form")[0].reset();
 					}
 				}
 			})

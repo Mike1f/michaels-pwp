@@ -29,10 +29,10 @@ try {
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
 	 * so we're using the $_POST superglobal.
 	 **/
-	$name = filter_input(INPUT_POST, "demoName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$email = filter_input(INPUT_POST, "demoEmail", FILTER_SANITIZE_EMAIL);
-	$subject = filter_input(INPUT_POST, "demoSubject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$message = filter_input(INPUT_POST, "demoMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$name = filter_input(INPUT_POST, "pwpName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$email = filter_input(INPUT_POST, "pwpEmail", FILTER_SANITIZE_EMAIL);
+	$subject = filter_input(INPUT_POST, "pwpSubject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$message = filter_input(INPUT_POST, "pwpMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create Swift message
 	$swiftMessage = new Swift_Message();
