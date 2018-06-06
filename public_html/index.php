@@ -36,7 +36,7 @@
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand"><img class="img-fluid rounded-circle" src="../images/wilma.jpg"></a>
+				<a class="navbar-brand" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/about-my-dog/"><img class="img-fluid rounded-circle" src="images/wilma.jpg"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -47,7 +47,7 @@
 							<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/michaels-portfolio/">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="../Michaelfigueroa.pdf">Resume</a>
+							<a class="nav-link" href="/public_html/Michaelfigueroa.pdf">Resume</a>
 						</li>
 					</ul>
 					<ul class="nav-item my-2 my-lg-0">
@@ -72,9 +72,9 @@
 		<div class="row">
 			<div class="col-md-3">
 <!--				<h1>Michael Figueroa</h1>-->
-				<img src="../images/pwp1copy.jpg" alt="pwp1" class="img-fluid rounded-circle">
-				<img src="../images/pwp2copy.jpg" alt="pwp2" class="img-fluid rounded-circle">
-				<img src="../images/pwp3copy.jpg" alt="pwp3" class="img-fluid rounded-circle">
+				<img src="images/pwp1copy.jpg" alt="pwp1" class="img-fluid rounded-circle">
+				<img src="images/pwp2copy.jpg" alt="pwp2" class="img-fluid rounded-circle">
+				<img src="images/pwp3copy.jpg" alt="pwp3" class="img-fluid rounded-circle">
 			</div>
 			<div class="col-md-9">
 				<p id="midContent">Hello, my name is Michael Figueroa and I am a beginner level computer programmer.

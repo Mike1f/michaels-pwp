@@ -19,6 +19,6 @@
 		<p>The fourth and last section will be a section where employers can contact me. There will be two boxes where
 			they can put their email address and send me email messages. There will also be social media icons that when clicked on will
 			send them to my profile that corresponds to said social media outlets.</p>
-		<img src="../../images/wireframe.png">
+		<img src="../images/wireframe.png">
 	</body>
 </html>
