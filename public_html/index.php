@@ -36,7 +36,7 @@
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/about-my-dog/"><img class="img-fluid rounded-circle" src="images/wilma.jpg"></a>
+				<a class="navbar-brand" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/about-my-dog/" target="_blank"><img class="img-fluid rounded-circle" src="images/wilma.jpg"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -44,10 +44,10 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/michaels-portfolio/">Portfolio</a>
+							<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/michaels-portfolio/" target="_blank">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/public_html/Michaelfigueroa.pdf">Resume</a>
+							<a class="nav-link" href="/public_html/Michaelfigueroa.pdf" target="_blank">Resume</a>
 						</li>
 					</ul>
 					<ul class="nav-item my-2 my-lg-0">
