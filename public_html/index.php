@@ -72,7 +72,7 @@
 		<div class="row">
 			<div class="col-md-3">
 <!--				<h1>Michael Figueroa</h1>-->
-				<img src="/images/pwp1copy.jpg" alt="pwp1" class="img-fluid rounded-circle">
+				<img src="../images/pwp1copy.jpg" alt="pwp1" class="img-fluid rounded-circle">
 				<img src="../images/pwp2copy.jpg" alt="pwp2" class="img-fluid rounded-circle">
 				<img src="../images/pwp3copy.jpg" alt="pwp3" class="img-fluid rounded-circle">
 			</div>
