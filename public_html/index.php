@@ -47,7 +47,7 @@
 							<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~mfigueroa14/michaels-portfolio/" target="_blank">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/public_html/" target="_blank">Resume</a>
+							<a class="nav-link" href="/public_html/resume.pdf" target="_blank">Resume</a>
 						</li>
 					</ul>
 					<ul class="nav-item my-2 my-lg-0">
