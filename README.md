@@ -47,3 +47,35 @@ Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/p
 
 ### Milestone 2b Feedback
 Still got a lot of work ahead - so keep moving forward. Your Milestone 2b passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Notes and feedback left via Slack.
+
+### PWP Final Feedback
+Nice work for a first website - I can see that this project was challenge. Keep practicing and keep challenging yourself. The more projects you do, the easier and more fun web development will become.
+
+*Code Base*: There are errors in your HTML. These can be found by using https://validator.w3.org.
+- The `!DOCTYPE` is missing `html`
+- There are 2 `<body>` tags... this isn't right. There should only be one.
+- `.sfooter` and `.sfooter-content` are not being used properly here, and may even be causing problems - these classes and CSS have been copy/pasted from one of my examples I think... I can even see the CSS docblock from my form demo in there. This is not good copy/paste.
+- jQuery Form, Validate, and Additional Methods dependencies are being loaded twice (lines 24-27)
+- Remove commented out code (dead code) - it's sloppy.
+- Always use `alt` attributes on your `<img>`s
+- Lines 53-68 need to be redone. `<a>` tags cannot be direct children of a `<ul>`. They must be placed inside `<li>`s first.
+
+From what I see here, it looks like you copy pasted some things in an effort to get them to work. I challenge you to keep practicing and learn to code everything yourself from scratch in the future.
+
+*Git Commits*: You definitely improved your Git/GitHub workflow as time progressed. Nice work.
+
+*Mobile-First Responsiveness*: I've tested your page using devtools, Chrome on Linux, and Chrome & Firefox on Android. Your layout does respond in an acceptable manner across these platforms.
+
+*Design, Content, &amp; Overall Presentation*: There is plenty of room to keep practicing here - but this is a good start for a first web page. There is a horizontal navbar across the bottom of the browser on desktop - and this is generally caused by problems with the HTML and Bootstrap grid. Cleaning up the HTML would be a help. I would also consider formatting your images in a different way on mobile - perhaps a grid of 4? Otherwise nice work experimenting with style - keep it up!
+
+*Contact Form*: This appears to work fine from my end - did you receive my test message?
+
+Your PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your cumulative PWP score including all Milestones is 20/40 points (50%). Because of the way the rubric is set up - 20/40 is considered passing with a "C" grade.
+
+- Milestone 1 - 20%: Tier II 20(0.2) = 4
+- Milestone 2a - 20%: Tier II 20(0.2) = 4
+- Milestone 2b - 10%: Tier II 20(0.1) = 2
+- Milestone 3 - 50%: Tier II 20(0.5) = 10
+
+#### Suggestions
+- We didn't discuss favicons, but you might want to consider adding one. Have a look at this tool which helps render multiple versions for cross-platform  support: https://realfavicongenerator.net/
